@@ -1,0 +1,11 @@
+# "version" is the configuration version, currently "1".
+version: 1
+
+# "merge" defines how and when pull requests are merged. If the section is
+# missing, bulldozer will consider all pull requests and use default settings.
+merge:
+  method: squash
+  options:
+    squash:
+      body: "summarize_commits"
+  delete_after_merge: true
