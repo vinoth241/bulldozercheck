@@ -1,7 +1,7 @@
 # bulldozercheck
 to check bulldozer application
 Adding new edits to the file to check PR auto merge
-czxc-edit testcase
+czxc
 newtest
-adding new line
-addingnew test case
+yffgfgf
+
