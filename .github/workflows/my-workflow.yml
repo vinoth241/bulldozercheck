@@ -1,0 +1,16 @@
+name: My Workflow
+on:
+  push:
+    branches:
+      - master  # Modify to match your repository's default branch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Unit-test
+      run: echo "Hello, Unit test!"
+    - name: Intg-test
+      run: echo "Hello, Integration test!"
+    - name: sec-test
+      run: echo "Hello, sec test!" 
+

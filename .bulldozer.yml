@@ -8,4 +8,4 @@ merge:
   options:
     squash:
       body: "summarize_commits"
-  delete_after_merge: true
+  
