@@ -2,7 +2,7 @@ name: My Workflow
 on:
   push:
     branches:
-      - main  # Modify to match your repository's default branch
+      - master  # Modify to match your repository's default branch
 jobs:
   build:
     runs-on: ubuntu-latest
